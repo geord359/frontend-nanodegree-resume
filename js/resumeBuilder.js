@@ -5,7 +5,7 @@ var formattedName = HTMLheaderName.replace("%data%", name);
 var formattedRole = HTMLheaderRole.replace("%data%", role);
 $("#header").prepend(formattedName);
 $("#header").prepend(formattedRole);
-var skillset = ["ArcGIS", "Python", "FME", "AutoCAD"]
+var skillset = ["ArcGIS", "Python", "FME", "AutoCAD"];
 
 var bio {
   name: "Chris Earley",
